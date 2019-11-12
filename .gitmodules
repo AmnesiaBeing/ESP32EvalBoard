@@ -1,0 +1,7 @@
+[submodule "esp32-wrover-kicad"]
+    path = esp32-wrover-kicad
+    url = https://github.com/aliafshar/esp32-wrover-kicad.git
+
+[submodule "lc_kicad_lib"]
+    path = lc_kicad_lib
+    url = https://github.com/xtoolbox/lc_kicad_lib.git
