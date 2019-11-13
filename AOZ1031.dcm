@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AOZ1031
+D EZBuck™ 3A Synchronous Buck Regulator
+K Buck Regulator
+F http://www.aosmd.com/pdfs/datasheet/AOZ1031AI.pdf
+$ENDCMP
+#
+#End Doc Library

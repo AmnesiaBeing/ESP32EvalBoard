@@ -14,4 +14,5 @@
   (lib (name lc_Transistor_PNP)(type Legacy)(uri ${KIPRJMOD}/lc_kicad_lib/lc_Transistor_PNP.lib)(options "")(descr ""))
   (lib (name lc_Zener)(type Legacy)(uri ${KIPRJMOD}/lc_kicad_lib/lc_Zener.lib)(options "")(descr ""))
   (lib (name HR911105A)(type Legacy)(uri ${KIPRJMOD}/HR911105A.lib)(options "")(descr ""))
+  (lib (name AOZ1031)(type Legacy)(uri ${KIPRJMOD}/AOZ1031.lib)(options "")(descr ""))
 )
