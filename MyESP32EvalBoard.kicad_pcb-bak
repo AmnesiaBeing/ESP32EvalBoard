@@ -526,7 +526,7 @@
   )
 
   (module Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering (layer F.Cu) (tedit 5A2F92D2) (tstamp 5DCC73A7)
-    (at 23.845001 80.825001)
+    (at 82.265001 83.365001)
     (descr "LGA-8, https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001-18.pdf")
     (tags "lga land grid array")
     (path /5DD19EA1/5DD1AA23)
@@ -580,7 +580,7 @@
   )
 
   (module Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm (layer F.Cu) (tedit 5B5A6D8E) (tstamp 5DCC738A)
-    (at 18.595001 82.175001)
+    (at 77.015001 84.715001)
     (descr "24-Lead Plastic QFN (4mm x 4mm); Pitch 0.5mm; EP 2.7x2.6mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)")
     (tags "QFN 0.5")
     (path /5DD19EA1/5DD1A14F)

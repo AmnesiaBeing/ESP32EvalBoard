@@ -1,0 +1,246 @@
+EESchema Schematic File Version 4
+LIBS:MyESP32EvalBoard-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J?
+U 1 1 5DCFB62F
+P 5800 3850
+AR Path="/5DF49590/5DCFB62F" Ref="J?"  Part="1" 
+AR Path="/5DCEE55C/5DCFB62F" Ref="J?"  Part="1" 
+F 0 "J?" H 5850 4467 50  0000 C CNN
+F 1 "Conn_02x09_Odd_Even" H 5850 4376 50  0000 C CNN
+F 2 "" H 5800 3850 50  0001 C CNN
+F 3 "~" H 5800 3850 50  0001 C CNN
+	1    5800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCFB635
+P 5600 3450
+AR Path="/5DF49590/5DCFB635" Ref="#PWR?"  Part="1" 
+AR Path="/5DCEE55C/5DCFB635" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5600 3200 50  0001 C CNN
+F 1 "GND" V 5605 3322 50  0000 R CNN
+F 2 "" H 5600 3450 50  0001 C CNN
+F 3 "" H 5600 3450 50  0001 C CNN
+	1    5600 3450
+	0    1    1    0   
+$EndComp
+Text Label 5200 3550 0    50   ~ 0
+OV_SCL
+Text Label 5200 3650 0    50   ~ 0
+OV_SDA
+Text Label 5200 3750 0    50   ~ 0
+OV_D0
+Text Label 5200 3850 0    50   ~ 0
+OV_D2
+Text Label 5200 3950 0    50   ~ 0
+OV_D4
+Text Label 5200 4050 0    50   ~ 0
+OV_D6
+Text Label 5200 4150 0    50   ~ 0
+OV_PCLK
+Text Label 5200 4250 0    50   ~ 0
+OV_PWDN
+Text Label 6200 3550 0    50   ~ 0
+OV_VSYNC
+Text Label 6200 3650 0    50   ~ 0
+OV_HREF
+Text Label 6200 3750 0    50   ~ 0
+OV_RESET
+Text Label 6200 3850 0    50   ~ 0
+OV_D1
+Text Label 6200 3950 0    50   ~ 0
+OV_D3
+Text Label 6200 4050 0    50   ~ 0
+OV_D5
+Text Label 6200 4150 0    50   ~ 0
+OV_D7
+NoConn ~ 6100 4250
+$Comp
+L lc_RES:0603_10KΩ__1002_1% R?
+U 1 1 5DCFB658
+P 4550 4450
+AR Path="/5DF49590/5DCFB658" Ref="R?"  Part="1" 
+AR Path="/5DCEE55C/5DCFB658" Ref="R?"  Part="1" 
+F 0 "R?" H 4550 4657 50  0000 C CNN
+F 1 "0603_10KΩ__1002_1%" H 4400 4640 50  0001 L BNN
+F 2 "lc_lib:0603_R" H 4350 4210 50  0001 L BNN
+F 3 "http://www.szlcsc.com/product/details_26547.html" H 4350 4310 50  0001 L BNN
+F 4 "贴片电阻" H 4550 4450 50  0001 C CNN "description"
+F 5 "供应商链接" H 4350 4110 50  0001 L BNN "ComponentLink1Description"
+F 6 "0603" H 4350 4010 50  0001 L BNN "Package"
+F 7 "LC" H 4350 3910 50  0001 L BNN "Supplier"
+F 8 "C25804" H 4350 3810 50  0001 L BNN "SuppliersPartNumber"
+F 9 "" H 4350 3710 50  0001 L BNN "Notepad"
+F 10 "10KΩ (1002) ±1%" H 4550 4566 50  0000 C CNN "Comment"
+	1    4550 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCFB65E
+P 4550 4650
+AR Path="/5DF49590/5DCFB65E" Ref="#PWR?"  Part="1" 
+AR Path="/5DCEE55C/5DCFB65E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 4400 50  0001 C CNN
+F 1 "GND" H 4555 4477 50  0000 C CNN
+F 2 "" H 4550 4650 50  0001 C CNN
+F 3 "" H 4550 4650 50  0001 C CNN
+	1    4550 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4150 6100 4150
+Wire Wire Line
+	7150 4050 6100 4050
+Wire Wire Line
+	7150 3950 6100 3950
+Wire Wire Line
+	7150 3850 6100 3850
+Wire Wire Line
+	7150 3750 6100 3750
+Wire Wire Line
+	7150 3650 6100 3650
+Wire Wire Line
+	7150 3550 6100 3550
+Wire Wire Line
+	5600 4250 4550 4250
+Wire Wire Line
+	5600 4150 4550 4150
+Wire Wire Line
+	5600 4050 4550 4050
+Wire Wire Line
+	5600 3950 4550 3950
+Wire Wire Line
+	5600 3850 4550 3850
+Wire Wire Line
+	5600 3750 4550 3750
+Wire Wire Line
+	5600 3650 4550 3650
+Wire Wire Line
+	5600 3550 4550 3550
+Text HLabel 4550 3550 0    50   Input ~ 0
+OV_SCL
+Text HLabel 4550 3650 0    50   BiDi ~ 0
+OV_SDA
+Text HLabel 4550 3750 0    50   Output ~ 0
+OV_D0
+Text HLabel 4550 3850 0    50   Output ~ 0
+OV_D2
+Text HLabel 4550 3950 0    50   Output ~ 0
+OV_D4
+Text HLabel 4550 4050 0    50   Output ~ 0
+OV_D6
+Text HLabel 4550 4150 0    50   Output ~ 0
+OV_PCLK
+Text HLabel 7150 3550 2    50   Output ~ 0
+OV_VSYNC
+Text HLabel 7150 3850 2    50   Output ~ 0
+OV_D1
+Text HLabel 7150 3950 2    50   Output ~ 0
+OV_D3
+Text HLabel 7150 4050 2    50   Output ~ 0
+OV_D5
+Text HLabel 7150 4150 2    50   Output ~ 0
+OV_D7
+Text HLabel 7150 3650 2    50   Output ~ 0
+OV_HREF
+Text HLabel 7150 3750 2    50   Input ~ 0
+OV_RESET
+Text Notes 6400 3350 0    50   ~ 0
+Female
+Wire Wire Line
+	6100 3450 6350 3450
+$Comp
+L lc_Cap:0603_10uF__106_10%_10V C?
+U 1 1 5DCFB68A
+P 6700 2950
+AR Path="/5DF49590/5DCFB68A" Ref="C?"  Part="1" 
+AR Path="/5DCEE55C/5DCFB68A" Ref="C?"  Part="1" 
+F 0 "C?" V 7004 3060 50  0000 L CNN
+F 1 "0603_10uF__106_10%_10V" H 6749 3180 50  0001 L BNN
+F 2 "lc_lib:0603_C" H 6699 2670 50  0001 L BNN
+F 3 "http://www.szlcsc.com/product/details_20411.html" H 6699 2770 50  0001 L BNN
+F 4 "贴片电容" H 6700 2950 50  0001 C CNN "description"
+F 5 "供应商链接" H 6699 2570 50  0001 L BNN "ComponentLink1Description"
+F 6 "0603" H 6699 2470 50  0001 L BNN "Package"
+F 7 "LC" H 6699 2370 50  0001 L BNN "Supplier"
+F 8 "C19702" H 6699 2270 50  0001 L BNN "SuppliersPartNumber"
+F 9 "" H 6699 2170 50  0001 L BNN "Notepad"
+F 10 "10uF (106) 10% 10V" V 7095 3060 50  0000 L CNN "Comment"
+	1    6700 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L lc_Cap:0603_100nF__104_10%_50V C?
+U 1 1 5DCFB697
+P 6900 2950
+AR Path="/5DF49590/5DCFB697" Ref="C?"  Part="1" 
+AR Path="/5DCEE55C/5DCFB697" Ref="C?"  Part="1" 
+F 0 "C?" V 7204 3060 50  0000 L CNN
+F 1 "0603_100nF__104_10%_50V" H 6949 3180 50  0001 L BNN
+F 2 "lc_lib:0603_C" H 6899 2670 50  0001 L BNN
+F 3 "http://www.szlcsc.com/product/details_15331.html" H 6899 2770 50  0001 L BNN
+F 4 "贴片电容" H 6900 2950 50  0001 C CNN "description"
+F 5 "供应商链接" H 6899 2570 50  0001 L BNN "ComponentLink1Description"
+F 6 "0603" H 6899 2470 50  0001 L BNN "Package"
+F 7 "LC" H 6899 2370 50  0001 L BNN "Supplier"
+F 8 "C14663" H 6899 2270 50  0001 L BNN "SuppliersPartNumber"
+F 9 "" H 6899 2170 50  0001 L BNN "Notepad"
+F 10 "100nF (104) 10% 50V" V 7295 3060 50  0000 L CNN "Comment"
+	1    6900 2950
+	0    1    1    0   
+$EndComp
+Connection ~ 6700 3450
+Wire Wire Line
+	6700 3450 6900 3450
+Wire Wire Line
+	6700 3150 6900 3150
+$Comp
+L power:GND #PWR?
+U 1 1 5DCFB6A2
+P 6900 3150
+AR Path="/5DF49590/5DCFB6A2" Ref="#PWR?"  Part="1" 
+AR Path="/5DCEE55C/5DCFB6A2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6900 2900 50  0001 C CNN
+F 1 "GND" V 6905 3022 50  0000 R CNN
+F 2 "" H 6900 3150 50  0001 C CNN
+F 3 "" H 6900 3150 50  0001 C CNN
+	1    6900 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6900 3150
+Text Notes 7650 3800 0    50   ~ 0
+RESET active low.
+Wire Wire Line
+	6350 3450 6350 3000
+Connection ~ 6350 3450
+Wire Wire Line
+	6350 3450 6700 3450
+$Comp
+L power:VDD #PWR?
+U 1 1 5DD2C3AD
+P 6350 3000
+F 0 "#PWR?" H 6350 2850 50  0001 C CNN
+F 1 "VDD" H 6367 3173 50  0000 C CNN
+F 2 "" H 6350 3000 50  0001 C CNN
+F 3 "" H 6350 3000 50  0001 C CNN
+	1    6350 3000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
