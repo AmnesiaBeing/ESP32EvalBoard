@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -103,4 +103,26 @@ F 3 "" H 6050 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6050 5250
+$Sheet
+S 6150 2500 750  1400
+U 5DCD2F88
+F0 "Ethernet" 50
+F1 "ethernet.sch" 50
+F2 "RXD0" B L 6150 2700 50 
+F3 "RXD1" B L 6150 2800 50 
+F4 "TXD0" B L 6150 2900 50 
+F5 "TXD1" B L 6150 3000 50 
+F6 "TXEN" B L 6150 3200 50 
+F7 "MDIO" B L 6150 3450 50 
+F8 "MDC" B L 6150 3350 50 
+F9 "CRS_DV" B L 6150 3100 50 
+F10 "REF_CLK" I L 6150 3600 50 
+F11 "RST" I L 6150 3700 50 
+$EndSheet
+$Sheet
+S 4500 850  1450 1150
+U 5DF49590
+F0 "Other Peripheral" 50
+F1 "peripherals.sch" 50
+$EndSheet
 $EndSCHEMATC
