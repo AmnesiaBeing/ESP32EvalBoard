@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CS4344
+D 10-Pin, 24-Bit, 192 kHz Stereo D/A Converter
+F https://atta.szlcsc.com/upload/public/pdf/source/20120829/1457706532988.pdf
+$ENDCMP
+#
+#End Doc Library

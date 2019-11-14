@@ -15,4 +15,5 @@
   (lib (name lc_Zener)(type Legacy)(uri ${KIPRJMOD}/lc_kicad_lib/lc_Zener.lib)(options "")(descr ""))
   (lib (name HR911105A)(type Legacy)(uri ${KIPRJMOD}/HR911105A.lib)(options "")(descr ""))
   (lib (name AOZ1031)(type Legacy)(uri ${KIPRJMOD}/AOZ1031.lib)(options "")(descr ""))
+  (lib (name CS4344)(type Legacy)(uri ${KIPRJMOD}/CS4344.lib)(options "")(descr ""))
 )
